@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "clean": "rm -rf dist && mkdir dist",
-    "build": "tsc && sass src/styles.scss dist/styles.css && cp src/index.html dist/",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "clean": "rm -rf dist && mkdir dist",
+  "build": "tsc && sass src/styles.scss dist/styles.css && cp src/index.html dist/ && cp -r src/assets dist/"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -1,7 +1,12 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@use  './bootstrap/scss/bootstrap.scss';
+@use './scss/normalize';
+@use './scss/variables';
+@use './scss/globals';
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #3280cf;
-    color: aliceblue;
-}
+
+@use './scss/blocks/header';
+@use './scss/blocks/burger_button';
+
+
+
+

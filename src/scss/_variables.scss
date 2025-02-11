@@ -1,0 +1,11 @@
+@use './helpers' as *;
+
+:root {
+    --color-light: #FFFFFF;  
+    --color-dark: #151515; 
+    --color-accent: #0066FF;
+    --color-gray: #E8E8E8;
+
+    --font-family-base: 'Inter', sans-serif;
+    --transition-duration: 0.2s;   
+  }

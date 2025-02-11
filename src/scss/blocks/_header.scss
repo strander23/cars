@@ -1,0 +1,10 @@
+.header{
+    .header__menu{
+        &-item{
+            color: var(--color-light);
+            :hover{
+            color: var(--color-dark);
+            }
+        }
+    }
+}
