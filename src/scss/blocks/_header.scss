@@ -1,5 +1,12 @@
 .header{
+    
     .header__menu{
+        @media (min-width: 1200px) { /* XL breakpoint */
+            .header__menu {
+                gap: 2rem;
+            }
+        }
+
         &-item{
             color: var(--color-light);
             :hover{
