@@ -1,0 +1,19 @@
+{
+  "name": "cars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist && mkdir dist",
+    "build": "tsc && sass src/styles.scss dist/styles.css && cp src/index.html dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.84.0",
+    "typescript": "^5.7.3"
+  }
+}
